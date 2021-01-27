@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/crypto/.config/awesome'
+let g:netrw_dirhist_0='/home/crypto'
+let g:netrw_dirhist_9='/home/crypto/Documents/c-programming'
+let g:netrw_dirhist_8='/home/crypto/Documents/cmp312-final-project'
+let g:netrw_dirhist_7='/home/crypto/Documents/c-programming/data-structure/binary_tree'
+let g:netrw_dirhist_6='/home/crypto'
+let g:netrw_dirhist_5='/home/crypto/Documents/c-programming/data-structure/linked_list'
+let g:netrw_dirhist_4='/home/crypto'
+let g:netrw_dirhist_3='/home/crypto/Documents/c-programming/data-structure/linked_list'
+let g:netrw_dirhist_2='/home/crypto/Documents/c-programming/data-structure'

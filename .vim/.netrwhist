@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/crypto/portible_linux'
+let g:netrw_dirhist_0='/home/crypto'
+let g:netrw_dirhist_9='/home/crypto/.vim'
+let g:netrw_dirhist_8='/home/crypto'
+let g:netrw_dirhist_7='/home/crypto/misc315'
+let g:netrw_dirhist_6='/mnt/c/Users/yharr/Desktop/cmp474/labs/lab11/Lab11'
+let g:netrw_dirhist_5='/home/crypto/misc315'
+let g:netrw_dirhist_4='/mnt/c/Users/yharr/Downloads'
+let g:netrw_dirhist_3='/home/crypto'
+let g:netrw_dirhist_2='/'

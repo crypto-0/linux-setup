@@ -1,0 +1,5 @@
+-f mp4
+-f best
+-o ~/Desktop/youtube_dl_downloads/%(title)s.%(ext).s
+--no-mtime
+--add-metadata

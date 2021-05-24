@@ -3,7 +3,10 @@
 # for examples
 
 #change caps to  ctrl
-#setxkbmap -layout us -option ctrl:nocaps
+setxkbmap -layout us -option ctrl:nocaps
+#chanche alt key to super window key
+#setxkbmap -option altwin:swap_alt_win
+
 
 # If not running interactively, don't do anything
 case $- in
@@ -78,9 +81,9 @@ esac
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    #alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -92,12 +95,12 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='lsd -alF'
-alias la='lsd -A'
-alias l='lsd -CF'
-alias ls='lsd'
-alias cat='batcat'
-alias desktop='cd /mnt/c/Users/yharr'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+#alias ls='lsd'
+#alias cat='batcat'
+#alias desktop='cd /mnt/c/Users/yharr'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -123,10 +126,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#add vim mode
+#add vim mode and make vim default editor
 set -o vi
 bind '"jj":vi-movement-mode'
 LS_COLORS=$LS_COLORS:'ow=1;34:'; export LS_COLORS
+export EDITOR="vim"
+export SVN_EDITOR="vim"
 
 #custom ps1
 PS1="\n \[\033[0;34m\]┌─────(\[\033[1;31m\]\u\[\033[0;34m\])─────(\[\033[1;32m\]\w\[\033[0;34m\]) \n └> \[\033[1;36m\]\$ \[\033[0m\]"

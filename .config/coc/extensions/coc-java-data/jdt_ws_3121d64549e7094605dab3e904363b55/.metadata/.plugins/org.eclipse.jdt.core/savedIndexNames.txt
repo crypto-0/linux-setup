@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/crypto/.config/coc/extensions/coc-java-data/jdt_ws_3121d64549e7094605dab3e904363b55/.metadata/.plugins/org.eclipse.jdt.core
+2194392386.index
+3842426239.index
+2388350682.index
